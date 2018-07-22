@@ -1,0 +1,25 @@
+import builtwith
+import os
+print("the information site")
+na=raw_input(" for help type:(h) and for start type:(1) => ")
+if na=="h":
+   print("for install lib type:(pip install -r requirements.txt)")
+else:
+   print (" ex: https://example.com")
+   print("\n")
+   print("\n")
+   print("-"*60)
+   print("                    ___________________ ")
+   print("                   |        ____       |")
+   print("                   |       |____|      |")
+   print("                   |        ____       |")
+   print("                   |       |    |      |") 
+   print("                   |       |    |      |")
+   print("                   |       |    |      |")
+   print("                   |       |____|      |")
+   print("                   |___________________|")
+   print("-"*60)
+   site=raw_input("enter the url: ")
+   os.system("clear")
+   r=builtwith.parse(site)
+   print(r)
